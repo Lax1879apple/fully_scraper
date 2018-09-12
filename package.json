@@ -1,0 +1,29 @@
+{
+  "name": "fully_scraper",
+  "version": "1.0.0",
+  "description": "Overview\r The New York Time Scraper (NYT Scraper for short) is a scraper app which captures the title, summary and image of articles of The New York Times. In this app, users are able to save their preferred articles, add notes and edit notes to one or multiple articles. Besides, app also provides search feature, allowing users to search in titles according to different key words.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lax1879apple/fully_scraper.git"
+  },
+  "author": "LakshmannC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lax1879apple/fully_scraper/issues"
+  },
+  "homepage": "https://github.com/Lax1879apple/fully_scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.2.13",
+    "morgan": "^1.9.0",
+    "request": "^2.88.0"
+  }
+}
