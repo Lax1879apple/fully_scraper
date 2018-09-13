@@ -6,11 +6,11 @@ var Schema = mongoose.Schema;
 var Articleschema = new Schema({
 	title: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	link: {
 		type: String,
-		required: true,
+		// required: true,
 	},
 	summary: {
 		type: String,

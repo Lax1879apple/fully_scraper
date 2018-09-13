@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-        <script src="/assets/javascript/app.js"></script>
+        
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/assets/javascript/app.js"></script>
 		<title>Richmond times scraper</title>
 </head>
 
@@ -13,9 +14,7 @@
 		<a href="/"><div id="sitename">RVA News Scraper</div></a>
 		<a href="/"><button id="all-articles">All Articles</button></a>
 		<a href="/saved"><button id="saved-articles">Saved Articles</button></a>
-		<form action="/scrape" method="GET">
 			<button type="submit" id="refresh-articles">Scrape For Newest Articles</button>
-		</form>
 		<form action="/search" method="POST">
 			<button type="submit" id="search-submit">Submit</button>
 			<input type="text" name="search" placeholder="Search for articles" id="search-input">

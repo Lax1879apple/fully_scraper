@@ -39,9 +39,20 @@ function changeback() {
 	$(this).html($(this).attr("value"));
 }
 
+function loadArticles() {
+	
+}
+
 $(document).on("click", "#addnote", shownote);
 $(document).on("click", "#add-note", addnote);
 $(".status").hover(changestatus, changeback);
 $("#close-note").on("click", function() {
 	$("#addnote").fadeOut(200);
+});
+
+$("#refresh-articles").on("click", function() {
+	console.log("got here")
+	$.getJSON("/scrape", function(data) {
+		location.reload();
+	})
 });
